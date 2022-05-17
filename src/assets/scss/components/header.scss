@@ -2,7 +2,7 @@
     max-width: 1842px;
     margin: 0 auto;
     font-family: Open Sans, serif;
-    border: 1px solid red;
+    padding: 1px 0 43px 0;
 }
 .header__row{
     display: flex;
@@ -105,4 +105,14 @@
     top: -2px;
     right: 20px;
     border: 5px solid transparent; border-bottom: 8px solid #000;
+}}
+.header__statistics-sec{
+    position: relative;
+    &::before{
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 37px;
+        background-color: #cecdc8;
+        margin: 3px 0px 0 -18px;
 }}   
