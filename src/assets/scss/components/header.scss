@@ -1,1 +1,108 @@
-.header {}
+.header__container{
+    max-width: 1842px;
+    margin: 0 auto;
+    font-family: Open Sans, serif;
+    border: 1px solid red;
+}
+.header__row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header__title{
+    font-size: 13px;
+    font-weight: 600;
+    color: #808080;
+    margin: 0 0 11px 0;
+}
+.header__number{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    position: relative;
+    sub{
+        font-size: 13px;
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        top: -3px;
+        right: 50px;
+        border: 5px solid transparent; border-bottom: 8px solid #ee3461;
+    }}
+.header__number-sec{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    position: relative;
+    sub{
+        font-size: 13px;
+    }
+    &::after{
+        content: '';
+        position: absolute;
+        top: -2px;
+        right: 65px;
+        border: 5px solid transparent; border-bottom: 8px solid #ee3461;
+}}
+.header__number-third{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f1ae00;
+    position: relative;
+    sub{
+        font-size: 13px;
+        color:#000;
+    }
+    &::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: 65px;
+    border: 5px solid transparent; border-bottom: 8px solid #ee3461;
+}}
+.header__number-four{
+    font-size: 24px;
+    font-weight: bold;
+    color:#000;
+    position: relative;
+    sub{
+        font-size: 13px;
+    }
+    &::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: 45px;
+    border: 5px solid transparent; border-bottom: 8px solid #000;
+}}
+.header__number-five{
+    font-size: 24px;
+    font-weight: bold;
+    color:#000;
+    position: relative;
+    sub{
+        font-size: 13px;
+    }
+    &::after{
+    content: '';
+    position: absolute;
+    top: 3px;
+    right: 30px;
+    border: 5px solid transparent; border-top: 8px solid rgb(0, 0, 0);
+}}
+.header__number-six{
+    font-size: 24px;
+    font-weight: bold;
+    color:#000;
+    position: relative;
+    sub{
+        font-size: 13px;
+    }
+    &::after{
+    content: '';
+    position: absolute;
+    top: -2px;
+    right: 20px;
+    border: 5px solid transparent; border-bottom: 8px solid #000;
+}}   
