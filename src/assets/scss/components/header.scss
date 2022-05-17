@@ -33,10 +33,11 @@
 .header__number-sec{
     font-size: 24px;
     font-weight: bold;
-    color: #000;
+    color: #ee3461;
     position: relative;
     sub{
         font-size: 13px;
+        color:#000
     }
     &::after{
         content: '';
