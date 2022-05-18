@@ -2,7 +2,7 @@
     max-width: 1842px;
     margin: 0 auto;
     font-family: Open Sans, serif;
-    padding: 1px 0 43px 0;
+    padding: 5px 0 43px 0;
 }
 .header__row{
     display: flex;
@@ -116,4 +116,23 @@
         height: 37px;
         background-color: #cecdc8;
         margin: 3px 0px 0 -18px;
-}}   
+}}
+@media (min-width:768px) and ( max-width:1024px){
+    .header__row{
+        display: flex;  
+        justify-content: center;
+        gap: 30px;
+        padding: 10px 0;
+    }
+    .header__title{
+        font-size: 20px;
+    }
+
+}
+@media (min-width:1025px) and ( max-width:1280px){
+    .header__row{
+        display: flex;  
+        justify-content: space-between;
+        padding: 10px 15px;
+    }
+}
